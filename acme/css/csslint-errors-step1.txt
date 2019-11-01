@@ -1,0 +1,511 @@
+csslint: There are 89 problems in /Applications/XAMPP/xamppfiles/htdocs/acme/css/styles.css.
+
+styles.css
+1: warning at line 11, col 1
+The universal selector (*) is known to be slow.
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+styles.css
+2: warning at line 11, col 5
+The box-sizing property isn't supported in IE6 and IE7.
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+styles.css
+3: warning at line 13, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+styles.css
+4: warning at line 20, col 5
+Duplicate property 'background-repeat' found.
+    background-repeat: no-repeat;
+
+styles.css
+5: warning at line 22, col 5
+Using height with padding can sometimes make elements larger than you expect.
+    padding:  3%;
+
+styles.css
+6: warning at line 43, col 1
+Rule doesn't have all its properties in alphabetical order.
+.slider {
+
+styles.css
+7: warning at line 49, col 1
+Rule doesn't have all its properties in alphabetical order.
+.overlay {
+
+styles.css
+8: warning at line 58, col 10
+Heading (h2) should not be qualified.
+.overlay h2 {
+
+styles.css
+9: warning at line 64, col 1
+Rule doesn't have all its properties in alphabetical order.
+.overlay p {
+
+styles.css
+10: warning at line 79, col 1
+Rule doesn't have all its properties in alphabetical order.
+.logo { 
+
+styles.css
+11: warning at line 85, col 1
+Rule doesn't have all its properties in alphabetical order.
+.logo img {
+
+styles.css
+12: warning at line 90, col 1
+Rule doesn't have all its properties in alphabetical order.
+.my-account {
+
+styles.css
+13: warning at line 98, col 1
+Rule doesn't have all its properties in alphabetical order.
+.my-account img {
+
+styles.css
+14: warning at line 109, col 1
+Rule doesn't have all its properties in alphabetical order.
+.my-account p a {
+
+styles.css
+15: warning at line 117, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav {
+
+styles.css
+16: warning at line 124, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav ul {
+
+styles.css
+17: warning at line 135, col 1
+Rule doesn't have all its properties in alphabetical order.
+nav li a {
+
+styles.css
+18: warning at line 169, col 18
+Heading (h3) should not be qualified.
+.content-wrapper h3 {
+
+styles.css
+19: warning at line 169, col 1
+Rule doesn't have all its properties in alphabetical order.
+.content-wrapper h3 {
+
+styles.css
+20: warning at line 178, col 1
+Rule doesn't have all its properties in alphabetical order.
+.recipes {
+
+styles.css
+21: warning at line 185, col 1
+Rule doesn't have all its properties in alphabetical order.
+.recipes figure {
+
+styles.css
+22: warning at line 192, col 1
+Rule doesn't have all its properties in alphabetical order.
+.recipes figure img {
+
+styles.css
+23: warning at line 196, col 1
+Rule doesn't have all its properties in alphabetical order.
+.recipes figcaption {
+
+styles.css
+24: warning at line 210, col 6
+Heading (h2) has already been defined.
+form h2 {
+
+styles.css
+25: warning at line 210, col 6
+Heading (h2) should not be qualified.
+form h2 {
+
+styles.css
+26: warning at line 217, col 6
+Heading (h3) has already been defined.
+form h3 {
+
+styles.css
+27: warning at line 217, col 6
+Heading (h3) should not be qualified.
+form h3 {
+
+styles.css
+28: warning at line 225, col 1
+Rule doesn't have all its properties in alphabetical order.
+form a {
+
+styles.css
+29: warning at line 230, col 1
+Don't use IDs in selectors.
+form #email {
+
+styles.css
+30: warning at line 246, col 1
+Rule doesn't have all its properties in alphabetical order.
+textarea {
+
+styles.css
+31: warning at line 251, col 1
+Rule doesn't have all its properties in alphabetical order.
+.login, .register {
+
+styles.css
+32: warning at line 255, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 1%;
+
+styles.css
+33: warning at line 256, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: 1px solid gray;
+
+styles.css
+34: warning at line 263, col 1
+Rule doesn't have all its properties in alphabetical order.
+.registration {
+
+styles.css
+35: warning at line 267, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 2%;
+
+styles.css
+36: warning at line 268, col 5
+Using width with border can sometimes make elements larger than you expect.
+    border: 1px solid gray;
+
+styles.css
+37: warning at line 277, col 9
+Heading (h2) has already been defined.
+section h2 {
+
+styles.css
+38: warning at line 277, col 9
+Heading (h2) should not be qualified.
+section h2 {
+
+styles.css
+39: warning at line 281, col 1
+Rule doesn't have all its properties in alphabetical order.
+footer {
+
+styles.css
+40: warning at line 293, col 2
+Don't use IDs in selectors.
+ input #regbtn2 {
+
+styles.css
+41: warning at line 296, col 53
+Don't use IDs in selectors.
+input:required, select:required, textarea:required, #catList-style{
+
+styles.css
+42: warning at line 309, col 2
+Element (input.fileupload) is overqualified, just use .fileupload without element name.
+ input.fileupload {
+
+styles.css
+43: warning at line 321, col 1
+Don't use IDs in selectors.
+#regbtn {
+
+styles.css
+44: warning at line 324, col 1
+Don't use IDs in selectors.
+input #regbtn2 {
+
+styles.css
+45: warning at line 327, col 1
+Don't use IDs in selectors.
+#catList-style {
+
+styles.css
+46: warning at line 343, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .my-account {
+
+styles.css
+47: warning at line 347, col 5
+Heading (h2) has already been defined.
+    h2 {
+
+styles.css
+48: warning at line 359, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .overlay {
+
+styles.css
+49: warning at line 360, col 9
+Fallback background-color (hex or RGB) should precede RGBA background-color.
+        background-color:rgba(255,255,255,0.3);
+
+styles.css
+50: warning at line 365, col 9
+Using height with padding can sometimes make elements larger than you expect.
+        padding: 1%;
+
+styles.css
+51: warning at line 377, col 5
+Heading (h1) has already been defined.
+    h1 {
+
+styles.css
+52: warning at line 381, col 14
+Heading (h2) should not be qualified.
+    .overlay h2 {
+
+styles.css
+53: warning at line 381, col 14
+Heading (h2) has already been defined.
+    .overlay h2 {
+
+styles.css
+54: warning at line 404, col 1
+Don't use IDs in selectors.
+#prod-display{
+
+styles.css
+55: warning at line 404, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display{
+
+styles.css
+56: warning at line 411, col 1
+Don't use IDs in selectors.
+#prod-display li{
+
+styles.css
+57: warning at line 411, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li{
+
+styles.css
+58: warning at line 418, col 1
+Don't use IDs in selectors.
+#prod-display li img{
+
+styles.css
+59: warning at line 418, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li img{
+
+styles.css
+60: warning at line 433, col 1
+Rule doesn't have all its properties in alphabetical order.
+.column-1 img {
+
+styles.css
+61: warning at line 438, col 14
+Heading (h2) has already been defined.
+.prod-detail h2 {
+
+styles.css
+62: warning at line 438, col 14
+Heading (h2) should not be qualified.
+.prod-detail h2 {
+
+styles.css
+63: warning at line 453, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .overlay {
+
+styles.css
+64: warning at line 459, col 9
+Using height with padding can sometimes make elements larger than you expect.
+        padding: 1%;
+
+styles.css
+65: warning at line 466, col 1
+Heading (h1) has already been defined.
+h1 {
+
+styles.css
+66: warning at line 470, col 1
+Heading (h2) has already been defined.
+h2 {
+
+styles.css
+67: warning at line 494, col 1
+Don't use IDs in selectors.
+#prod-display{
+
+styles.css
+68: warning at line 494, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display{
+
+styles.css
+69: warning at line 502, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li{
+
+styles.css
+70: warning at line 502, col 1
+Don't use IDs in selectors.
+#prod-display li{
+
+styles.css
+71: warning at line 511, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li img{
+
+styles.css
+72: warning at line 511, col 1
+Don't use IDs in selectors.
+#prod-display li img{
+
+styles.css
+73: warning at line 525, col 14
+Heading (h2) has already been defined.
+.prod-detail h2 {
+
+styles.css
+74: warning at line 525, col 14
+Heading (h2) should not be qualified.
+.prod-detail h2 {
+
+styles.css
+75: warning at line 541, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .overlay {
+
+styles.css
+76: warning at line 554, col 1
+Rule doesn't have all its properties in alphabetical order.
+.column-1{
+
+styles.css
+77: warning at line 557, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: 1%;
+
+styles.css
+78: warning at line 558, col 5
+Using width with border-right can sometimes make elements larger than you expect.
+    border-right: 5px solid black;
+
+styles.css
+79: warning at line 560, col 1
+Rule doesn't have all its properties in alphabetical order.
+.column-1 img {
+
+styles.css
+80: warning at line 568, col 1
+Heading (h1) has already been defined.
+h1 {
+
+styles.css
+81: warning at line 573, col 1
+Heading (h2) has already been defined.
+h2 {
+
+styles.css
+82: warning at line 581, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display{
+
+styles.css
+83: warning at line 581, col 1
+Don't use IDs in selectors.
+#prod-display{
+
+styles.css
+84: warning at line 588, col 1
+Don't use IDs in selectors.
+#prod-display li{
+
+styles.css
+85: warning at line 588, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li{
+
+styles.css
+86: warning at line 595, col 1
+Don't use IDs in selectors.
+#prod-display li img{
+
+styles.css
+87: warning at line 595, col 1
+Rule doesn't have all its properties in alphabetical order.
+#prod-display li img{
+
+styles.css
+88: warning
+Too many font-size declarations (32), abstraction needed.
+
+styles.css
+89: warning
+You have 4 h1s, 9 h2s, 2 h3s defined in this stylesheet.
+
+##### ANALYZE.CSS ######
+{
+  "generator": "analyze-css v0.12.5",
+  "metrics": {
+    "base64Length": 0,
+    "redundantBodySelectors": 0,
+    "redundantChildNodesSelectors": 0,
+    "colors": 5,
+    "comments": 17,
+    "commentsLength": 1073,
+    "complexSelectors": 0,
+    "duplicatedSelectors": 2,
+    "duplicatedProperties": 1,
+    "emptyRules": 0,
+    "expressions": 0,
+    "oldIEFixes": 0,
+    "imports": 0,
+    "importants": 0,
+    "mediaQueries": 3,
+    "notMinified": 1,
+    "multiClassesSelectors": 0,
+    "parsingErrors": 0,
+    "oldPropertyPrefixes": 0,
+    "propertyResets": 0,
+    "qualifiedSelectors": 1,
+    "specificityIdAvg": 0.14,
+    "specificityIdTotal": 15,
+    "specificityClassAvg": 0.64,
+    "specificityClassTotal": 70,
+    "specificityTagAvg": 0.77,
+    "specificityTagTotal": 84,
+    "selectors": 109,
+    "selectorLengthAvg": 1.4587155963302751,
+    "selectorsByAttribute": 0,
+    "selectorsByClass": 60,
+    "selectorsById": 15,
+    "selectorsByPseudo": 7,
+    "selectorsByTag": 84,
+    "length": 8862,
+    "rules": 103,
+    "declarations": 266
+  },
+  "offenders": {
+    "duplicatedProperties": [
+      "body {background-repeat: no-repeat} @ 20:5"
+    ],
+    "qualifiedSelectors": [
+      "input.fileupload @ 309:2"
+    ],
+    "mediaQueries": [
+      "@media only screen and (max-width: 37.5em) (24 rules) @ 338:1",
+      "@media only screen and (min-width: 37.5em) (16 rules) @ 450:1",
+      "@media only screen and (min-width: 64em) (13 rules) @ 540:1"
+    ],
+    "colors": [
+      "#de2226 (6 times)",
+      "#990033 (2 times)",
+      "#808080 (1 times)",
+      "#00bf00 (1 times)",
+      "rgba(255,255,255,0.3) (1 times)"
+    ],
+    "duplicatedSelectors": [
+      "section (2 times)",
+      "input #regbtn2 (2 times)"
+    ]
+  }

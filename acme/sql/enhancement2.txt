@@ -1,0 +1,39 @@
+-- Tony Stark insert statement -- 
+
+INSERT INTO clients 
+(clientFirstname, clientLastname, clientEmail, clientPassword, comments)
+VALUES
+('Tony', 'Stark', 'tony@starkent.com', 'Iam1ronM@n', 'I am the real Ironman');
+
+-- Tony Stark update statement -- 
+
+UPDATE clients 
+SET clientLevel = '3'
+WHERE clientId = 2;
+
+
+
+-- nylon rope update statement -- 
+UPDATE inventory
+SET 
+invName = REPLACE('Nylon Rope', 'Nylon', 'Climbing'),
+invDescription = REPLACE('This nylon rope is ideal for all uses. Each rope is the highest quality nylon and comes in 100 foot lengths.', 'nylon rope', 'climbing rope')
+WHERE invId = 15; 
+
+
+
+-- select misc items statement --
+
+SELECT invName, categoryName
+FROM inventory
+INNER JOIN categories
+ON inventory.categoryId = categories.categoryId
+WHERE inventory.categoryId = 3;
+
+
+--delete Koenigsegg CCX statement works --
+
+DELETE 
+FROM inventory
+WHERE invId =7;
+

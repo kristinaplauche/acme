@@ -1,0 +1,643 @@
+/*
+##### COLORS #######3
+black: #000000
+Blue: #0000ee
+Gray: #808080
+Dark Red: #990033
+Bright Red: #de22226
+White: #ffffff
+*/
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-family: 'Patrick Hand', Helvetica, sans-serif;
+    background-image: url("/acme/images/site/background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:  3%;
+    background-color: white;
+
+}
+
+
+header {
+    background-color: white;
+    margin: 0;
+    padding: 1%;
+}
+
+p {
+    font-size: 1.5vw;
+}
+.notice {
+    color: #de2226;
+}
+
+.slider-wrap {
+    position: relative;
+    border-bottom: 3px solid #990033;
+
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+
+.overlay {
+    color: black;
+    max-width: 100%;
+    
+}
+
+.overlay h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay p {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.overlay .call {
+    margin-top: 2%;
+}
+
+.header-wrap {
+    display: flex;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 20%;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.my-account {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2%;
+    width: 30%;
+}
+
+.my-account img {
+    width: 10%;
+    height: auto;
+    margin: 2%;
+}
+
+.my-account p {
+    font-size: 2vw;
+    margin: 2%;
+}
+
+.my-account p a {
+    text-decoration: none;
+    color: black;
+}
+.admin-list {
+    font-size: 2vw;
+}
+
+nav {
+    margin: 0;
+    padding-top: .5%;
+    padding-left: .5%;
+    background-color: #de2226;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    background-color: #de2226;
+    flex-wrap: wrap;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #de2226;
+}
+
+
+main {
+    background-color: white;
+    margin: 0;
+    padding: 1%;
+}
+
+h1 {
+    font-size: 5vw;
+    margin: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+} 
+
+.content-wrapper h3 {
+    font-size: 2em;
+    padding-left: 1%;
+    margin: 0;
+}
+.content-wrapper .recipe-wrap {
+    width: 100%;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    width: 100%;
+    padding: 0;
+}
+.recipes figure {
+    width: 22%;
+    background-color: #808080;
+    text-align: center;
+    margin: 1%;   
+}
+
+.recipes figure img {
+    width: 60%;
+    height: auto;
+}
+.recipes figcaption {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 5%;
+}
+
+.selected {
+    background-color: #990033;
+    color: white;
+}
+form h2 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 1%;
+
+}
+
+form h3 {
+    font-size: 2em;
+    margin-bottom: 1%;
+}
+
+form p {
+    font-size: 1.2em;
+}
+form a {
+    text-decoration: none;
+    color: white;
+}
+
+form #email {
+    min-width: 35%;
+}
+
+label {
+    font-size: 2vw;
+    margin-bottom: 1%;
+
+}
+
+input {
+    height: 48px;
+    margin-bottom: 2%;
+    min-width: 20%;
+
+}
+textarea {
+    min-width: 30%;
+    min-height: 100px;
+}
+
+.login, .register {
+    background-color: #de2226;
+    color: white;
+    font-size: 1.5vw;
+    padding: 1%;
+    border: 1px solid gray;
+    width: 8%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.registration {
+    background-color: #de2226;
+    color: white;
+    font-size: 3vw;
+    padding: 2%;
+    border: 1px solid gray;
+    width: 30%;
+    text-align: center;
+}
+section {
+    border: 1px solid darkgray;
+    padding-left: 1vw;
+}
+
+section h2 {
+    font-size: 2vw;
+}
+
+footer {
+    background-color: white;
+    margin: 0;
+    border-top: 5px solid black;
+    text-align: center;
+    font-size: 3vw;
+}
+footer p{
+    margin: 0;
+}
+
+input #regbtn2 {
+    background: red;
+}
+input:required, select:required, textarea:required, #catList-style{
+    border-left: 5px solid red;
+}
+
+input:focus:required:invalid textarea:focus:invalid {
+    background: pink;
+}
+
+
+input:valid {
+    background: lightgreen;
+}
+
+input.fileupload {
+    background: white;
+}
+
+.fail-message p {    
+    color: #de2226;      
+    font-size: 2em;
+}
+.success-message p {    
+    color: #00bf00;      
+    font-size: 2em;
+}
+#regbtn {
+    background-color: red;
+}
+input #regbtn2 {
+    background-color: red;
+}
+#catList-style {
+    height: 48px;
+    margin-bottom: 2%;
+    min-width: 20%;
+}
+
+
+
+/* ######## SMALL SCREENS ########################################################################################## */
+
+
+@media only screen and (max-width: 37.5em) {
+
+    .logo {
+        width: 40%
+    }
+    .my-account {
+        width: 30%;
+        font-size: 8px;
+    }
+    h2 {
+        font-size: 7.5vw; 
+    }
+
+    p {
+        font-size: 5vw;
+    }
+    nav ul {
+        font-size: 5vw;
+    }
+
+
+    .overlay {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        padding:3%;
+    }
+    .overlay h2 {
+        font-size: 8vw;
+        
+    }
+
+    .overlay p {
+       
+        font-size: 4vw;
+    }
+    
+    
+    
+    .overlay-content {
+        max-height: 100%;
+  
+    }
+    
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+    .slider img{
+        width: 100%;
+        height: auto;
+    }
+    .content-wrapper {
+        flex-direction: column-reverse;
+    }
+    .content-wrapper .recipe-wrap  {
+        width: 100%;
+    }
+.recipes figure {
+    width: 95%;
+}
+    .reviews {
+        width: 100%;
+    }
+    h1 {
+        font-size: 10vw;
+
+    }
+
+    .call img {
+        max-width: 100%;
+    }
+    .login, .register {
+
+        width: 20%;
+
+    }
+
+
+    .registration {
+
+        width: 80%;
+
+    }
+    /* ##### CSS for products view #### */
+    #prod-display{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #prod-display li{
+        margin: .5%;
+        padding: 2%;
+        border: 2px solid black;
+        list-style-type: none;
+        flex: 1 1 auto;
+    }
+    #prod-display li img{
+        max-width: 80vw;
+        height:auto;
+        width:auto;
+        max-height:80vh;
+    }
+
+    .prod-detail {
+        display:flex;
+        flex-direction: column;
+    }
+    .column-1{
+        width: 100%;
+
+    }
+    .column-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .prod-detail h2 {
+        background-color: black;
+        color: white;
+        padding: .5%;
+    }
+
+    /*Keep this } !!!!! */
+}
+/*Keep this } !!!!! */
+
+/* ######## MEDIUM SCREEN STYLES ##################################################################################################### */
+
+@media only screen and (min-width: 37.5em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+    .overlay {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 100%;
+        height: auto;
+        bottom: 0; 
+        left: 0;
+        padding:3%;
+    }
+
+    .slider {
+        width: 400px;
+        height: auto;
+    }
+    .slider img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .login, .register {
+        width: 10%;
+
+    }
+    h1 {
+        font-size: 10vw;
+        margin: 0;
+    }
+    h2 {
+        font-size: 7.5vw; 
+        max-width: 95%;
+    }
+    p{
+        font-size: 5vw;
+    }
+    footer p {
+        font-size: 2vw;
+    }
+    .registration {
+        width: 50%;
+
+    }
+ .recipes figure {
+    width: 48%;
+ }
+    #prod-display{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    #prod-display li{
+        margin: .5%;
+        max-width: 48%;
+        min-width: 20%;
+        padding: 2%;
+        border: 2px solid black;
+        list-style-type: none;
+        flex: 1 1 auto;
+    }
+    #prod-display li img{
+        width: auto;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .prod-detail {
+        display:flex;
+        flex-direction: column;
+    }
+    .column-1{
+        width: 100%;
+
+    }
+    .prod-detail h2 {
+        background-color: black;
+        color: white;
+        padding: .5%;
+    }
+
+
+    /*Keep this } !!!!! */
+}
+/*Keep this } !!!!! */
+
+
+/*  ############### LARGE SCREEN STYLES ##################################################################################### */
+
+
+@media only screen and (min-width: 64em) {
+
+    .slider-wrap{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .overlay {
+        position: static;
+        background-color: transparent;
+        color: black;
+        max-width: 49%;
+    }
+    .slider {
+        width: 400px;
+        height: auto;
+        padding: 3%;
+    }
+    .slider img{
+        width: 100%;
+        height: auto;
+    }
+.recipes figure {
+    width: 22%;
+}
+    .prod-detail {
+        display:flex;
+        flex-direction: row;
+    }
+    .column-1{
+        width: 35%;
+        margin-right:3%;
+        padding: 1%;
+        border-right: 5px solid black;
+    }
+    .column-1 img {
+        width: 100%;
+        height: auto;
+    }
+    .column-2 {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+    p {
+        font-size: 2vw;
+    } 
+
+    /* ##### CSS for products view #### */
+    #prod-display{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    #prod-display li{
+        margin: .5em;
+        border: 2px solid black;
+        list-style-type: none;
+        flex: 1 1 auto;
+
+    }
+    #prod-display li img{
+        /* width: auto;
+         height: 200px;*/
+        max-width: 100%;
+        height:auto;
+        width:auto;
+        max-height:100vh;
+    }
+    /*Keep this } !!!!! */
+}
+/*Keep this } !!!!! */
